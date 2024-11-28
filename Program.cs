@@ -1,3 +1,6 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using OnlineFashionOutletUsingMVC.Data;
 namespace OnlineFashionOutletUsingMVC
 {
     public class Program
@@ -5,6 +8,8 @@ namespace OnlineFashionOutletUsingMVC
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<OnlineFashionOutletUsingMVCContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("OnlineFashionOutletUsingMVCContext") ?? throw new InvalidOperationException("Connection string 'OnlineFashionOutletUsingMVCContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineFashionOutletUsingMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab6eb06d1acdd57242ddc9a27839abf8e2bcdc35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9401412ad1c2e22bf26251263998b8fca2f5fcb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineFashionOutletUsingMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineFashionOutletUsingMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
